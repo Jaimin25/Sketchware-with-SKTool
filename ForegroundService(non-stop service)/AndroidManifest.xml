@@ -1,0 +1,10 @@
+//Add this code before <application> tag and after <manifest> tag
+     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+//Add this code before </application> tag, this code should be present in <application> and </application> tags only
+     <service 
+			android:name=".ForegroundService" 
+			android:enabled="true"
+      android:exported="true">
+     </service>
+
