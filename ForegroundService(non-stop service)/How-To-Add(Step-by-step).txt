@@ -1,0 +1,15 @@
+Step-1: Add two buttons, button1(to start service) and button2(to stop service) in your main.xml, on button1 and button2 click events add the respected code to them using add source directly block from MainActivity.java file from this repo folder.
+
+Step-2: Enable AppCompatActivity from library.
+
+Step-3: Open SKTool and click on the project where you have added this buttons and codes.
+
+Step-4: After clicking on the project you will see a extraction dialog, now run/build that project from sketchware, you will be transferred to ProjectEditing Activity in SKTool.
+
+Step-5: Now go to the path where your java files are located, .../java/your/app/package/..., add a "ForegroundService.java" file in that path.
+
+Step-6: Add the codes from ForegroundService.java from the files in this repo to your file.
+
+Step-7: Open AndroidManifest.xml using SKTool and add the required permission and service to it from manifest file in this repo.
+
+Step-8: Run the project first from SKTool and then from Sketchware.
